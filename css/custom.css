@@ -1,0 +1,63 @@
+.img_area1
+{
+	overflow:hidden;
+	height:450px;
+	background-image:url(../images/frozen.jpg);
+	background-size:100% 100%;
+	transition:transform 1s;
+	opacity:0.5;
+	
+}
+.img_area1:hover
+{
+	cursor:pointer;
+	transform:translate(34px,56px);
+	opacity:1;
+}
+
+.img_area2
+{
+	height:450px;
+	background-image:url(../images/lion.jpg);
+	background-size:100% 100%;
+	transition:transform 1s;
+	opacity:0.5;
+}
+.img_area2:hover
+{
+	cursor:pointer;
+	transform:rotate(360deg);
+	opacity:1;
+}
+
+.img_area3
+{
+	
+	height:450px;
+	background-image:url(../images/tangled.jpg);
+	background-size:100% 100%;
+	transition:transform 1s;
+	opacity:0.5;
+}
+.img_area3:hover
+{
+	cursor:pointer;
+	transform:scale(1.1);
+	opacity:1;
+}
+/*--------------------------------*/
+.general
+{
+overflow:hidden;
+		
+}
+.general img
+{
+	width:100%;
+	height:100%;
+	transition:transform 1s;
+}
+img:hover
+{
+	transform:scale(1.1);
+}
